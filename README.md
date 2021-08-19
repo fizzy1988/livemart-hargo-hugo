@@ -24,6 +24,7 @@ any hassle. This theme is very SEO friendly and Powered by Hugo, so super fast L
 | ![faq](https://user-images.githubusercontent.com/37659754/67154832-35e3bb00-f324-11e9-9b8f-3cc8d7fe3f97.png)
 | ![blog](https://user-images.githubusercontent.com/37659754/67154837-485df480-f324-11e9-8792-128fc4b14632.png)
 | ![contact](https://user-images.githubusercontent.com/37659754/67154841-5ad82e00-f324-11e9-8c00-5b6f1127c643.png) |
+| ![Checkout](https://raw.githubusercontent.com/livemart/livemart-hargo-hugo/master/resources/hurgo_screen.png)
 
 ## Installation
 
@@ -38,8 +39,10 @@ $ git clone git@github.com:livemart/livemart-hargo-hugo.git
 ```
 
 #### Goto LiveMart & Prepare your account
-Go to [LiveMart](https://livemart.xyz) and prepare your account. Here is a [Quick start guide](https://livemart.xyz/contents/blazing-fast-static-ecommerce-site-with-hugo-livemart).
-Then change `livemart_key` and `livemart_secret` with your `App` type credentials in `exampleSite/config.toml`.
+
+Go to [LiveMart](https://livemart.xyz) and prepare your account. Here is
+a [Quick start guide](https://livemart.xyz/contents/blazing-fast-static-ecommerce-site-with-hugo-livemart). Then
+change `livemart_key` and `livemart_secret` with your `App` type credentials in `exampleSite/config.toml`.
 
 ## Main features
 
