@@ -14,7 +14,7 @@ priceBefore: "25.00"
 shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
 
 #product ID
-productID: "9"
+productID: "293fcfc4-f651-4028-b687-5bde297d2559"
 
 # type must be "products"
 type: "products"

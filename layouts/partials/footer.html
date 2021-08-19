@@ -49,17 +49,24 @@
   </div>
 </footer>
 
-{{ with site.Params.snipcartApiKey }}
-{{ "<!-- Snipcart -->" | safeHTML }}
-<div id="snipcart" data-api-key="{{ . }}" hidden></div>
-{{ end }}
-
 {{ "<!-- Google Maps API -->" | safeHTML }}
 <script src="{{ site.Params.gmapAPI | absURL }}"></script>
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
+
+<script>
+  function on_load() {
+    let key = "{{site.Params.livemart_key}}";
+    let secret = "{{site.Params.livemart_secret}}";
+    set_store_key(key);
+    set_store_secret(secret);
+    get_store_info();
+  }
+
+  on_load();
+</script>
 
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
